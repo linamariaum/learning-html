@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Éste es el título</title>
+    </head>
+    <body>
+
+        <p>18. USO table: ya no es muy utilizado por que no lo soporta html5; difine una tabla dentro deldocumento, contiene elementos th, tr, td</p>
+        <p>18.1 USO tr: define una fila dentro de una tabla</p>
+        <p>18.2 USO th: define una cerda con formato de encabezado, se utiliza para los titulos de una tabla</p>
+        <p>18.3 USO td: define una celda standard de una tabla</p>
+        <table>
+            <tr>
+                <td></td>
+                <th>Titulo 1</th>
+                <th>Titulo 2</th>
+                <th>Titulo 3</th>
+            </tr>
+            <tr>
+                <td>Item 1</td>
+                <td>contenido</td>
+                <td>contenido</td>
+                <td>contenido</td>
+            </tr>
+            <tr>
+                <th>Item 2</th>
+                <td>contenido</td>
+                <td>contenido</td>
+                <td>contenido</td>
+            </tr>
+            <tr>
+                <td>Item 3</td>
+                <td>contenido</td>
+                <td>contenido</td>
+                <td>contenido</td>
+            </tr>
+        </table>
+
+        <p>17. USO  footer: define el pié de página de un documento o sección, contiene información relacionada con su elemento principal. Ejm, autor de un documento, info de derechos reservados, vinculos, etc.</p>
+        <p>16. USO  audio: define un archivo de sonido. formatos que soporta: MP3, Wav, Ogg</p>
+        <audio controls>
+                <source src=".\completo\audio\audio01.mp3" type="audio/mpeg">
+        </audio>
+
+        <p>15. USO  video: muestra un video dentro del documento sin utilizar flash ni esas cosas. Esta etiqueta soporta 3 formatos: MP4, Webm, Ogv.</p>
+        <p>Controls, permite tener los botones de play, pause, etc. width y heigth son para darle un tamaño especifico al video, ya que sin esto nos salió un video enorme.</p>
+        <video controls width="480" height="320">
+            <source src=".\completo\video\video01.mp4" type="video/mp4">
+        </video>
+
+        <p>14. USO  address: define info de contacto para un autor o propietario de un documento o artículo.</p>
+        <article>
+            <h1>Título del artículo</h1>
+            <h5>Espacio para un slogan</h5>
+            <address>Escrito por: Nombre del autor | <a href="#">Contacto por email</a></address>
+            <p>Lorem ipsum alsdkfj jalskdjf l ajsldkf  asldfk  alskdfj  alksdfjl</p>
+        </article>
+        <p>13. USO  aside: el contenido que va dentro de esta etiqueta, debe ser relacionado al contenido general de un documento o sección; normalmente se utiliza en las barras laterales.</p>        
+        <p>12. USO  nav: define un set de vínculos de navegación, normalmente se usa para el menú principal, deberá estar conformado por elementos ul (para que los buscadores puedan indezar y tenga relevancia entre las busquedas). Debe llevar CSS</p>
+        <nav>
+            <ul>
+                <li><a href="http://www.google.com">Principal</a></li>
+                <li>Nosotros</li>
+                <li>Servicios</li>
+                <li>Contacto</li>
+            </ul>
+        </nav>
+
+        <section>
+            <p>11. USO  section: define secciones dentro de un documento, ejm, capítulos, encabezados, pie de página, etc.</p>
+            <p>El uso adecuado de las etiquetas que hemos visto hasta ahora hará que para los motores de busqueda sea mas facil encontrar resultados dependiendo de la busqueda, y que nuesta pagina este bien posicionada.</p>
+            <div>
+                <article>
+                    <h1>Encabezado de la pagina</h1>
+                    <p>Lorem ipsum alskdfj alksdfj lak alskdfj  alsdfk jlaksdfj  ajsldfkj</p>
+                </article>
+            </div>
+        </section>
+        <section>
+            <img src=".\completo\imagenes\banner.jpg"/>
+        </section>      
+
+        <article>
+            <p>10. USO  article: para contenidos autónomos, debe tener sentido por sí mismo, debe poderse distribuir independientemente. Ejemplos: Publicación en un blog, una noticia, un comentario.</p>
+        </article>
+
+
+        <figure>
+            <img src=".\completo\imagenes\article02.jpg"/>
+            <figcaption>9. USO  figure: es para Contenidos autónomos, ilustraciones, diagramas, fotos, etc. Y lleva consigo de manera opcional un FIGCAPTION que es el subtitulo de la figure.</figcaption>
+        </figure>
+
+        <header>
+            <p>7. USO   header: especifica el encabezado de un documento o sección y deberá ser utilizada como un contenedor de textos introductorios o como un navbar.</p>
+            <h4>Header no puede ir dentro de otro header, ni en las etiquetas footer, ni address</h4>
+            <p>8. USO   img: define una imagen dentro de un documento, las imagenes no estan insertados, estan vinculadas, crea un espacio dentro de un contenedor.</p>
+            <p>Atributos src: origen de la imagen, y alt: texto alternativo si por algún motivo no se muestra la imagen.</p>
+            <img src=".\completo\imagenes\logo.png" alt="En dónde esta la imagen"/>
+            <h1>Título del artículo</h1>
+            <p>Lorem ipsum jaakd jlasdjfl alskdjfl lasdjkf lasjdfkla l ajsldfkj a alsfkja a sdjlfkja alkdfj a</p>
+        </header>
+
+        <div style="background-color:black; color:white">
+            <p>6. USO   div: define divisioneso secciones, agrupa bloques de elementos, se puede cambiar formato vía CSS por medio de una clase comunmente.</p>
+            <h1>Título del artículo</h1>
+            <p>Lorem ipsum kalsdlf lsdjflk aslkfj  asldfk asldkfjsak lsadfjks aklsdfjka laksjf  jaslkddfjk alskdfjsakf laksjdfka laksddfjka jaksldfj  jlaksfjksf</p>
+        </div>
+        
+        <h1>Holi HTML5</h1>
+        <h3>5. USO  Lista desordenada:</h3>
+        <p>ul: Es para listas desordenadas, pone viñetas.</p>
+        <p>li: Es un elemento de una lista, elementos que integran una lista, se utilizan en las etiquetas ul y ol.</p>
+        <ul>
+            <li>Opción 1</li>
+            <li>Opción 2</li>
+            <li>Opción 3</li>
+            <li>Opción 4</li>
+        </ul>
+        <h3>5.1 USO  Lista ordenada:</h3>
+        <p>ol: Es para listas ordenadas numérica o alfabeticamente, enumera los ítems.</p>
+        <ol>
+            <li>Opción 1</li>
+            <li>Opción 2</li>
+            <li>Opción 3</li>
+            <li>Opción 4</li>
+        </ol>
+        <a href="http://www.google.com">4. USO  Link a Google</a>
+        <p>4.etiqueta a, define hipervincculos, enlaza documentos/aplicaciones/etc, el atribujo href indica el destino del vínculo.</p>
+        <p>3. USO   Párrafos    </p>
+        <p>3.Ejm Lorem ipsum alkdfj jalskdfjl ffjlasdjflkasj klasf lksajf asdflksdjal lasdjfla</p>
+        <h2>2. USO  conceptos básicos, Titulos: h1, h2...</h2>
+        <p>2.Definen encabezados, títulos/Subtítulos, se pueden modificar sus características por medio de CSS</p>
+        <p>01. USO   Etiquetas estructurales de html: Doctype (Para que el navegador sepa de que tipo de documento se trata), html (Es la raíz del documento, es decir, el contenedor de todos los elementos), head (Contiene elementos que determinan el funcionamiento/comportamiendo de la pag, contiene info para los buscadores, contiene otras etiquetas, lleva una metaEtiqueta 'meta charset="UTF-8"' para el alfabeto que manejara la pag, los acentos, los caracteres especiales), title (va en el head, define el título de la pag, despliega el título en los resultados de los motores de busqueda), body (define el contenido de la pagina, contiene todas las etiquetas que utilicemos en nuestra pagina web). Deben ir siempre.</p>
+    </body>
+</html>
